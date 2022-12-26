@@ -28,10 +28,6 @@ const NavBar = () => {
       link:'contact'
     },
   ]
-
-
-
-
   return (
     <div className='flex justify-between items-center w-full h-20
     text-white px-4 bg-black fixed'>

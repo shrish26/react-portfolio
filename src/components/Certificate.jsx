@@ -5,11 +5,6 @@ import portimg3 from '../assets/portfolio/portimg3.jpg'
 import portimg4 from '../assets/portfolio/portimg4.jpg'
 import portimg5 from '../assets/portfolio/portimg5.jpg'
 import portimg6 from '../assets/portfolio/portimg6.jpg'
-// import portimg7 from '../assets/portfolio/portimg7.jpg'
-// import portimg8 from '../assets/portfolio/portimg8.jpg'
-// import portimg9 from '../assets/portfolio/portimg9.jpg'
-// import portimg10 from '../assets/portfolio/portimg10.jpg'
-// import portimg11 from '../assets/portfolio/portimg11.jpg'
 
 const certificate = () => {
 
@@ -48,33 +43,6 @@ const certificate = () => {
       String:'Innovation'
 
     },
-    // {
-    //   id:7,
-    //   src: portimg7,
-    //   String:'Programming for Everybody [Python]'
-    // },
-    // {
-    //   id:8,
-    //   src: portimg8
-    // },
-    // {
-    //   id:9,
-    //   src: portimg9,
-    //   String:'Python for Data Science,Ai & Development'
-
-    // },
-    // {
-    //   id:10,
-    //   src: portimg10,
-    //   String:'Innovation Through Design: Think, Make, Break, Repeat'
-
-    // },
-    // {
-    //   id:11,
-    //   src: portimg11,
-    //   String:'Design Thinking for innovation'
-
-    // }
   ]
   return (
     <div name="certificate" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
@@ -83,7 +51,6 @@ const certificate = () => {
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Certificates</p>
           <p className='py-6'>Checkout some of my Certificates</p>
         </div>
-
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
         {
           certificates.map(({id, src, String}) => (

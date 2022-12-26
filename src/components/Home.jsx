@@ -15,7 +15,6 @@ const Home = () => {
           Information Science engineer who is interested and skilled in Full-stack web development.
           <br /><br />
           <hr />
-          
           </p>
           <div>
             <Link to="certificate" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-slate-800 to-gray-500 cursor-pointer'>

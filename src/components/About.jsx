@@ -9,11 +9,8 @@ function About() {
         </div>
         <p className='text-xl mt-20'>
         As mentioned previously, I'm an enthusiastic engineer with an artistic touch
-
-
-We as engineers are responsible for faster movement of this world, when I say that it means development in 360 degrees without going against the nature.
-
-And thus I believe in simplifying and finding solution to human and nature problems by applying my technical knowledge in artistic form
+        We as engineers are responsible for faster movement of this world, when I say that it means development in 360 degrees without going against the nature.
+        And thus I believe in simplifying and finding solution to human and nature problems by applying my technical knowledge in artistic form
       </p>
 
         <br/>
